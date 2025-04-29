@@ -104,7 +104,8 @@ body{
     align-items: center;
     gap: 20px;
     background-color: var(--Light-Grayish-Magenta);
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 45px;
     padding-left: 20px;
     border-radius: 10px;
@@ -135,7 +136,7 @@ body{
 }
 
 .comments__card__container{
-    width: 290px;
+    max-width: 290px;
     height: 190px;
     display: flex;
     flex-direction: column;
@@ -217,7 +218,8 @@ body{
     
     .header{
         flex-direction: column;
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         gap: 30px;
         text-align: center;
         padding-left: 0px;
@@ -225,7 +227,8 @@ body{
 
     .header__description__container,
     .header__rates__container{
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         align-items: center;
     }
 

@@ -233,6 +233,8 @@ body{
         width: 90%;
         max-width: 400px;
         align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
 
     .header__rates__tag{

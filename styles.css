@@ -218,22 +218,26 @@ body{
     
     .header{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         max-width: 400px;
         gap: 30px;
         text-align: center;
-        padding-left: 0px;
+        padding: 0px;
+        padding-top: 100px;
     }
 
     .header__description__container,
     .header__rates__container{
-        width: 100%;
+        width: 90%;
         max-width: 400px;
         align-items: center;
     }
 
     .header__rates__tag{
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         height: 80px;
         gap: 10px;

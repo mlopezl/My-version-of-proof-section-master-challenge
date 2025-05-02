@@ -245,14 +245,6 @@ body{
         gap: 10px;
     }
 
-    .header__rates__tag:nth-child(2){
-        margin-left: 0px;
-    }
-    
-    .header__rates__tag:last-child{
-        margin-left: 0px;
-    }
-
     .coments{
         width: 400px;
         flex-direction: column;
